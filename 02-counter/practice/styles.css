@@ -188,3 +188,10 @@ main {
   color: var(--clr-white);
   background: var(--clr-black);
 }
+
+.red{
+  color: var(--clr-red-dark);
+}
+.green {
+  color: var(--clr-green-dark);
+}
