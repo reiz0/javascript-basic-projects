@@ -8,14 +8,11 @@ number.textContent = showNumber
 
 const numColor = () => {
     if (showNumber < 0) {
-        number.classList.add("red")
-        number.classList.remove("green")
+        number.style.color = "red"
     } else if (showNumber > 0) {
-        number.classList.add("green")
-        number.classList.remove("red")
+        number.style.color = "green"
     } else {
-        number.classList.remove("red")
-        number.classList.remove("green")
+        number.style.color = ""
     }
 }
 
